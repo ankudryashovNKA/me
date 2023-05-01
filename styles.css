@@ -19,29 +19,41 @@ h3 {
 }
 
 a {
-  font: 1.2em "Helvetica", serif;
+  font: bold 1.2em "Helvetica", serif;
 }
 
-a:link { text-decoration: none; color: black;}
+a:link, a:visited, a:active { text-decoration: none; color: rgb(220,220,220);}
 
+a:hover { text-decoration: none; color: rgb(195,195,195);}
 
-a:visited { text-decoration: none; color: black;}
-
-
-a:hover { text-decoration: none; color: gray;}
-
-
-a:active { text-decoration: none; color: black;}
+ul {
+  color: rgb(220,220,220);
+}
 
 mark {
   background-color: rgba(255, 99, 71, 0.5);
 }
 
 #upButton {
-  background-color: rgba(255, 99, 71, 0.5);
+  background-color: rgba(255, 99, 71, 0.7);
   padding: 15px 25px;
-  margin: 30px 0px;
+  margin: 30px;
+  color: rgb(230,230,230);
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+#social {
+  background-image: url('image/social.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 12px 300px 15px 20px;
+}
+
+#study {
+  margin: 10px 10% 10px 10px;
+  padding: 25px 20px 20px 20px;
+  background-color: rgb(231,225,225);
 }
