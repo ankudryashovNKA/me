@@ -1,9 +1,10 @@
 body {
-  background-color: rgba(246, 241, 241, 1);
+  background-color: #000000;
 }
 
 p {
-  font: italic 1.2em "Fira Sans", serif;
+  font: 1.2em "Fira Sans", serif;
+  color: #121212
 }
 
 h1 {
@@ -32,12 +33,15 @@ ul {
 
 mark {
   background-color: rgba(255, 99, 71, 0.5);
+  border-radius: 8px;
+  padding: 6px; 
 }
 
 #upButton {
-  background-color: rgba(255, 99, 71, 0.7);
-  padding: 15px 25px;
-  margin: 30px;
+  background-color: #DCAD76;
+  padding: 17px 27px;
+  margin: 0px 0px 3vw 6vw;
+  border-radius: 7px;
   color: rgb(230,230,230);
   text-align: center;
   text-decoration: none;
@@ -48,17 +52,32 @@ mark {
   background-image: url('image/social.png');
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0px;
+  margin: 0px 0px 5vw 0px;
   padding: 12px 300px 15px 20px;
 }
 
 .content {
-  width: 85vw;
-  margin: 10px 10% 10px 10px;
-  padding: 25px 20px 20px 20px;
-  background-color: rgb(231,225,225);
+  margin: 1.2% 0% 5% 0%;
+  padding: 1vw 3vw;
+  background-color: #FEFEFE;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(215,215,215);
 }
 
 #videos {
   width: 85
+}
+
+#full {
+  margin: 0vw 6vw 5vw 6vw;
+  padding: 2vw 10vw 2vw 10vw;
+  background-color: #F2F2F2;
+  border-radius: 10px;
+}
+
+.header {
+  margin-block-start: 0px;
+  text-align:center;
 }
