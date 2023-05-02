@@ -52,8 +52,13 @@ mark {
   padding: 12px 300px 15px 20px;
 }
 
-#study {
+.content {
+  width: 85vw;
   margin: 10px 10% 10px 10px;
   padding: 25px 20px 20px 20px;
   background-color: rgb(231,225,225);
+}
+
+#videos {
+  width: 85
 }
